@@ -1,4 +1,4 @@
-import { find, create } from '../models/User';
+import { find, create } from '../models/userModel';
 
 async function getUsers() {
   try {
@@ -22,5 +22,5 @@ async function addUser(username, email, password, role) {
 
 export default {
   getUsers,
-  addUser
+  addUser,
 };
